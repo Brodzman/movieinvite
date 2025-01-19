@@ -20,9 +20,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px;
+    padding: 30px 400px;
     background-color: #F4845F;
-    font-size: 20px
+    font-size: 25px
 }
 
 .links {
@@ -50,9 +50,10 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 200px;
-    font-size: 60px;
+    padding: 100px 400px;
+    font-size: 70px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .option-section {
@@ -65,14 +66,14 @@ ul {
 }
 
 button {
-    padding: 40px;
+    padding: 70px;
     border-radius: 15px;
     border-color: #969DEB;
     font-family: Roboto;
     color: #3F334D;
     background-color: #ebe496;
-    font-size: 15px;
-    height: 120px;
+    font-size: 25px;
+    height: 200px;
 } 
 
 .buttons {
@@ -83,7 +84,7 @@ button {
 /* INVITES PAGE */
 .images-and-text-split {
     display: flex;
-    padding: 100px 200px;
+    padding: 100px 400px;
     justify-content: space-between;
     align-items: center;
 }
@@ -93,19 +94,22 @@ button {
     border-color: #3F334D;
     border-style: dashed;
     border-radius: 3px;
-    padding: 25px;
-    width: 240px;
+    padding: 45px;
     background-color: #ebe496;
 }
 
 .invitation {
     font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.pending {
     font-size: 25px;
-    margin-bottom: 10px;
 }
 
 .invitations {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .image-container {
