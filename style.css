@@ -80,15 +80,17 @@ button {
     display: flex;
     padding: 100px 200px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .pending-invites {
     display: flex;
-    margin-bottom: 200px;
     border-color: #3F334D;
     border-style: dashed;
     border-radius: 3px;
-    padding: 20px;
+    padding: 25px;
+    width: 240px;
+    background-color: #ebe496;
 }
 
 .invitation {
@@ -101,6 +103,17 @@ button {
     margin-top: 10px;
 }
 
+.image-container {
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.square-images {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
 
 
 /* Work in progress */
