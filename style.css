@@ -37,6 +37,7 @@ ul {
     padding: 0;
 }
 
+/* INDEX PAGE */
 .overview-image {
     border-radius: 15px;
 }
@@ -72,4 +73,30 @@ button {
 .buttons {
     display: flex;
     gap: 60px;
+}
+
+/* INVITES PAGE */
+.images-and-text-split {
+    display: flex;
+    padding: 100px 200px;
+    justify-content: space-between;
+}
+
+.pending-invites {
+    display: flex;
+    margin-bottom: 200px;
+    border-color: #3F334D;
+    border-style: dashed;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.invitation {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.invitations {
+    margin-top: 10px;
 }
