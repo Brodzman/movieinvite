@@ -1,0 +1,39 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    background-color: lightcoral;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.option-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
