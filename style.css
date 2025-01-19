@@ -22,12 +22,14 @@ body {
     justify-content: space-between;
     padding: 30px 400px;
     background-color: #F4845F;
-    font-size: 25px
+    font-size: 25px;
+    flex-wrap: wrap;
 }
 
 .links {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 a {
@@ -79,6 +81,7 @@ button {
 .buttons {
     display: flex;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 /* INVITES PAGE */
@@ -87,6 +90,7 @@ button {
     padding: 100px 400px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .pending-invites {
@@ -116,6 +120,7 @@ button {
     display: flex;
     align-items: center;
     height: 400px;
+    flex-wrap: wrap;
 }
 
 .square-images {
