@@ -16,7 +16,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 15px 200px;
+    padding: 20px 200px;
     background-color: #F4845F;
     font-size: 20px
 }
@@ -99,4 +99,15 @@ button {
 
 .invitations {
     margin-top: 10px;
+}
+
+
+
+/* Work in progress */
+.in-progress {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    justify-content: center;
+    align-items: center;
 }
