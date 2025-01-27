@@ -129,6 +129,23 @@ button {
     height: 400px;
 }
 
+.confirmed-invites {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.accept {
+    padding: 25px 100px;
+}
+
+/* Accepted Page */
+.accepted {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    font-size: 50px;
+}
 
 /* Work in progress */
 .in-progress {
